@@ -1,0 +1,447 @@
+.title-row>span{
+    color: #8fc04e;
+    background-color: #f3f8ec;
+}
+.title-row h3>span{
+    color: #8fc04e ;
+}
+li{
+    list-style-type: none;
+}
+nav ul li a:hover{
+    color: #8fc04e;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 14px;
+}
+
+.drop-1{
+    width:200px;
+    position:absolute;
+    top:100%; 
+    display: none;
+    border-radius: 15px;
+}
+.drop-1 ul li a{
+    color: #000;
+}
+.drop-main{
+    position: relative;
+}
+
+.drop-main:hover .drop-1{
+    display: block;
+
+}
+.drop-main-2{
+    position: relative;
+}
+.drop-2{
+    width:200px;
+    position:absolute;
+    top:30%;
+    left: -120%; 
+    display: none;
+    border-radius: 15px;
+    padding: 20px 0;
+}
+.drop-two{
+    width:200px;
+    position:absolute;
+    top:30%;
+    /* left: -120%;  */
+    display: none;
+}
+.drop-main-2:hover .drop-2{
+    display: block;	
+
+}
+.drop-main-2:hover .drop-two{
+    display: block;
+}
+.offcanvas-body ul li a{
+    color: #000;
+}
+.offcanvas-body ul li a:hover{
+    color: #759e3f;
+}
+#top-header{
+    background-color: #1c1c1c;
+}
+.col-left a{
+    color: #fff;
+}
+.col-left a i{
+    color: #8fc04e;
+}
+.col-left a:hover{
+    color: #8fc04e;
+}
+.col-left p i{
+    color: #8fc04e;
+}
+.top-header a{
+    color: #9b9b9b;
+}
+.top-header a:hover{
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+/* header section */
+.main-home{
+    color: #8fc04e;
+}
+
+
+
+#baner-sec{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url("../images/hero-bg.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.baner-btn{
+    /* background-color: #acde73; */
+    border: 2px solid #8fc04e;
+}
+.baner-btn:hover{
+    background-color: #8fc04e;
+    transition: all 0.5s ease;
+}
+.baner-row{
+    padding-top: 10%;
+
+}
+
+/* about section */
+.abt-icon{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #bfdb99;
+}
+.abt-icon i{
+    color: #8fc04e;
+}
+.abt-r-row:hover .abt-icon{
+    background-color: #8fc04e;
+    border-color: #8fc04e;
+    transition: all 0.5s ease;
+}
+.abt-r-row:hover .abt-i{
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.abt-card span{
+    background-color: #f9f9f9;
+    color: #8fc04e;
+}
+.abt-image{
+    position: relative;
+}
+
+.abt-l-icon{
+    background-color: #8fc04e;
+    width: 60px;
+    height: 60px;
+    outline: 10px solid #8fc04e74;
+    position: absolute;
+    bottom: 40%;
+    left:45%;
+}
+.abt-l-icon:hover{
+    outline-color: #8fc04e;
+}
+.abt-l-icon:hover .play-border{
+    animation: none;
+}
+.play-border{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #8fc04e;
+    animation: play 1s ease infinite;
+}
+@keyframes play{
+    0%{
+        /* border:2px solid #8fc04e; */
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(0.7);
+        /* border:2px solid #8fc04e; */
+    }
+    100%{
+        transform: scale(1.3);
+        /* border:2px solid #8fc04e; */
+        opacity: 50%;
+    }
+}
+
+
+.why-card h3{
+    color: #8fc04e;
+}
+.why-card p{
+    color: #9b9b9b;
+}
+.why-card:hover {
+    background-color:#8fc04e;
+    transition: all 0.5s ease;
+    /* transform: translateY(-5%); */
+
+    overflow: hidden;
+}
+.why-card:hover h3{
+    color: #fff;
+    transform: translateY(-15%);
+    transition: all 0.5s ease;
+}
+.why-card:hover h4{
+    color: #fff;
+    transform: translateY(-15%);
+    transition: all 0.5s ease;
+}
+.why-card:hover p{
+    color: #fff;
+    transform: translateY(-15%);
+    transition: all 0.5s ease;
+}
+/* rating section */
+.rate-card h3{
+    color: #8fc04e;
+}
+
+/* call to action */
+#cta{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/cta-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.cta-btn {
+    border: 2px solid #8fc04e;
+}
+.cta-btn:hover{
+    background-color: #8fc04e;
+    transition: all 0.5s ease;
+}
+/* service section */
+.srve-card{
+    border: 1px solid #e5f0d5;
+}
+.srve-card:hover{
+    box-shadow: 0 0 20px #e2e1e1;
+    transition: all 0.5s ease;
+    border: 0;
+}
+.srve-icon i{
+    color: #bfdb99;
+}
+.srve-icon{
+    background-color: #f3f8ec;
+    border:1px  solid #d6e8bf;
+    width: 60px;
+    height: 60px;
+    /* border-radius: 50%; */
+}
+.srve-card:hover h3{
+    color: #8fc04e;
+    transition: all 0.5s ease;
+}
+.srve-card:hover .srve-icon{
+    border: 1px solid #8fc04e;
+    transition: all 0.5s ease;
+}
+.srve-card:hover .srve-icon i{
+    color: #8fc04e;
+    transition: all 0.5s ease;
+}
+
+/* portfolio section */
+.port-filter a .main-filter{
+    background-color: #8fc04e;
+}
+.port-filter a span{
+    color: #000;
+}
+.port-filter a span:hover{
+    background-color: #8fc04e;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.port-card{
+    position: relative;
+}
+.port-card:hover .port-cont{
+    visibility: visible;
+    transform: translateY(-10%);
+    transition: all 0.5s ease;
+    height:80px;
+}
+.port-card:hover .port-image{
+    transform: translateY(-10%);
+    transition: all 0.5s ease
+}
+.port-cont{
+    background-color: #8fc04e;
+    position: absolute;
+    bottom: 0;
+
+    visibility: hidden;
+    height:0;
+}
+.port-right a i{
+    color: #fff;
+}
+.port-right a :hover{
+    filter: opacity(75%);
+    
+}
+
+/* team section */
+.team-social a i{
+    padding: 10px;
+    background-color: #8fc04ecc;
+    border-radius: 50%;
+}
+.team-social a i:hover{
+    background-color: #8fc04e;
+}
+.team-image{
+    position: relative;
+}
+.team-social{
+    position: absolute;
+    bottom: 20%;
+    left:50px;
+    filter: opacity(0);
+}
+.team-card:hover .team-social{
+    transition: all 0.5s ease;
+    filter: opacity(1);
+    bottom: 5%;
+    transform: translateY(-20%);    
+}
+
+/* pricing section */
+.price-card{
+    background-color: #f9f9f9;
+}
+.price-card a{
+    color: #8fc04e;
+    /* background-color: red; */
+    border: 2px solid #8fc04e;
+}
+.price-card a:hover{
+    background-color: #8fc04e;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.price-card h1{
+    color: #8fc04e;
+}
+.middle-card{
+    border: 1px solid #8fc04e;
+    position: relative;
+    overflow: hidden;
+}
+.middle-card a{
+    background-color: #8fc04e;
+    color: #fff;
+}
+.middle-card p{
+    background-color: #8fc04e;
+    position: absolute;
+    top: -4%;
+    left:32%;
+    /* color: #fff; */
+
+}
+
+/* frqquently asked question */
+#faq-sec{
+    background-color: #f9f9f9;
+}
+.accordion-button h6 i{
+    color: #8fc04e;
+}
+.accordion-button:hover{
+    color: #8fc04e;
+}
+
+/* contact section */
+.cont-icon{
+    width: 50px;
+    height: 50px;
+    background-color: #f3f8ec;
+}
+.cont-icon i{
+    color: #8fc04e;
+}
+.contac-row:hover .cont-icon{
+    background-color: #8fc04e;
+    transition: all 0.5s ease;
+}
+.contac-row:hover .cont-icon i{
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.right-card a{
+    background-color: #8fc04e;
+}
+.right-card a:hover{
+    filter: opacity(75%);
+}
+
+/* footer section */
+
+#foot-sec{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/footer-bg.jpg");	
+}
+.foot-icon a{
+    padding: 8px 11px;
+    background-color:#8fc04e;
+}
+.foot-icon a:hover{
+    background-color: #759e3f;
+    transition: all 0.5s ease;
+}
+.foot-sub a{
+    background-color: #8fc04e;
+    padding: 0px 20px;
+}
+.foot-sub a:hover{
+    background-color: #759e3f;
+    transition: all 0.5s ease;
+}
+.end-foot p>span{
+    color: #8fc04e;
+}	
+
+
+#testimonial-sec{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/testimonials-bg.jpg);
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-item>img{
+    filter:opacity(0%);
+
+}
+.carousel-item{
+    height: 50vh;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px !important;
+    height:10px !important;
+    background-color: #8fc04e !important ;
+    border-radius:50%;
+}
+.carousel-caption img{
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+    border: 6px solid #ffffff39;
+}
